@@ -5,7 +5,7 @@
 # AppImages and their building process.
 
 echo "deb http://ppa.launchpad.net/djcj/libcurl-slim/ubuntu xenial main" >> /etc/apt/sources.list
-echo "deb http://ppa.launchpad.net/djcj/gnutls-patched/ubuntu trusty main" >> /etc/apt/sources.list
+echo "deb http://ppa.launchpad.net/djcj/gnutls-patched/ubuntu xenial main" >> /etc/apt/sources.list
 
 cat > /etc/apt/preferences.d/appimage-pin <<EOF
 Package: *

@@ -1,0 +1,12 @@
+app: sqlitebrowser
+
+ingredients:
+  dist: xenial
+  sources:
+    - deb http://archive.ubuntu.com/ubuntu/ xenial main universe
+  ppas:
+    - linuxgndu/sqlitebrowser-testing
+
+script:
+  # - sudo apt-get install imagemagick
+  # - convert usr/share/icons/hicolor/scalable/apps/wireshark.svg wireshark.png
